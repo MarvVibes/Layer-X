@@ -108,7 +108,7 @@ const Hero = () => {
           </motion.div>
         </div>
 
-        <div className="hidden lg:flex flex-col justify-center items-start gap-8 h-[400px] pl-12 preserve-3d">
+        <div className="hidden lg:flex flex-col justify-center items-start gap-8 h-[400px] preserve-3d">
           <InteractiveCard className="w-64 bg-surface/50 backdrop-blur-md rounded-lg p-1 border border-primary/10 hover:border-primary/40 transition-colors">
             <motion.div 
               animate={{ y: [0, -10, 0] }}
